@@ -14,7 +14,7 @@ public class AnimationStateTitle : MonoBehaviour
     {
         // アニメーターの現在のステートを取得
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        Debug.Log(stateInfo);
+        //Debug.Log(stateInfo);
 
         // ステートの名前をUI Textに表示
         foreach (string stateName in stateNames)
